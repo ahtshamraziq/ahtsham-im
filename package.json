@@ -1,0 +1,22 @@
+{
+  "name": "ahtsham-im",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export -o dist",
+    "now-build": "npm run export"
+  },
+  "keywords": [],
+  "author": "Ahtsham Raziq",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
