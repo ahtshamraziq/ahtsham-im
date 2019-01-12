@@ -26,18 +26,16 @@ export default () => (
       <style jsx>{`
         .links {
           margin-top: 1rem;
-          text-align: center;
+          display: flex;
+          justify-content: center;
         }
 
         a {
           font-size: 1.5rem;
+          padding: 0 0.25rem;
         }
 
-        a + a {
-          margin-left: 0.5rem;
-        }
-
-        @media screen and (max-width: 319.98px) {
+        @media screen and (max-width: 328.2px) {
           .links {
             flex-direction: column;
           }
