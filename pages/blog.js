@@ -4,7 +4,7 @@ import Wrapper from '../components/Wrapper'
 export default () => (
   <Page>
     <Wrapper>
-      <h1>Fingers crossed &hellip;</h1>
+      <h1>Coming soon&hellip;</h1>
     </Wrapper>
   </Page>
 )
