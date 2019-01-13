@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Link from 'next/link'
 
 import Page from '../components/Page'
@@ -5,6 +6,10 @@ import Wrapper from '../components/Wrapper'
 
 export default () => (
   <Page>
+    <Head>
+      <title>Ahtsham Raziq</title>
+      <meta name='description' content="Ahtsham's homepage on the internets" />
+    </Head>
     <Wrapper>
       <div>
         <h1>Ahtsham Raziq</h1>

@@ -1,4 +1,3 @@
-import React from 'react'
 import Document, { Head, Main, NextScript } from 'next/document'
 import flush from 'styled-jsx/server'
 
@@ -13,15 +12,11 @@ export default class extends Document {
 
   render() {
     return (
-      <html>
+      <html lang='en'>
         <Head>
-          <meta http-equiv='x-ua-compatible' content='ie=edge' />
-          <title>Ahtsham's personal website</title>
-          <meta name='description' content='Home page' />
-          <meta
-            name='viewport'
-            content='width=device-width, initial-scale=1, shrink-to-fit=no'
-          />
+          <meta charSet='utf-8' />
+          <meta httpEquiv='x-ua-compatible' content='ie=edge' />
+          <meta name='viewport' content='width=device-width, initial-scale=1' />
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async
