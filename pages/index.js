@@ -24,9 +24,6 @@ export default () => (
         <Link href='mailto:ahtsham.raziq@pm.me'>
           <a>Contact</a>
         </Link>
-        <Link prefetch href='/blog'>
-          <a>Blog</a>
-        </Link>
       </div>
       <style jsx>{`
         .links {
